@@ -1,5 +1,5 @@
 This repo is a fork from main repo and will usually have new features bundled faster than main repo (and maybe bundle some bugs, too).
-See main repo [here](https://github.com/Schmavery/facebook-chat-api).
+See main repo [here](https://github.com/EMon-BHai-Github/fb-chat-api).
 
 # Unofficial Facebook Chat API
 <img alt="version" src="https://img.shields.io/github/package-json/v/fb-chat-api/fb-chat-api?label=github&style=flat-square">
@@ -106,7 +106,7 @@ login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
 
 __Example (File upload)__
 ```js
-const login = require("fb-chat-api-temp");
+const login = require("fb-chat-api");
 
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
     if(err) return console.error(err);
